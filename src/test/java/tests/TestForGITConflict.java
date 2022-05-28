@@ -7,11 +7,11 @@ public class TestForGITConflict {
 
     @Test
     void firstCompare () {
-        Assertions.assertTrue( 4 > 3);
+        Assertions.assertEquals(4,4);
     }
 
     @Test
     void secondCompare () {
-        Assertions.assertTrue( 10 > 3);
+        Assertions.assertEquals( 10,10);
     }
 }

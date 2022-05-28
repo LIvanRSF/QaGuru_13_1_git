@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 public class TestForGITConflict {
 
     @Test
-    void firstCompare () {
-        Assertions.assertTrue( 4 > 3);
+    void firstCompare() {
+        Assertions.assertTrue(10 > 5);
     }
 
     @Test
-    void secondCompare () {
-        Assertions.assertTrue( 10 > 3);
+    void secondCompare() {
+        Assertions.assertTrue(100 > 5);
     }
 }
